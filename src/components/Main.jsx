@@ -6,7 +6,7 @@ import MainImage from './MainImage'
 const data = [
   {src: women, title: "women1"},
   {src: women, title: "women2"},
-  {src: women, title: "women3"},
+  {src: women, title: ""},
   {src: women, title: "women4"}
 ]
 

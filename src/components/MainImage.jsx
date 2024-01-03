@@ -6,8 +6,8 @@ const MainImage = ({women, title}) => {
 
   return (
     <div className="image" onClick={handleClick}>
-        <img src={women} alt={title} />
-        <p>{title}</p>
+        <img src={women} alt={title ? title : 'alt tekstas'} />
+        <p>{title ? title : 'Title tekstas'}</p>
     </div>
   )
 }
